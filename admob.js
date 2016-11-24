@@ -55,10 +55,10 @@ function initAds() {
       publisherId:          admobid.banner,
       interstitialAdId:     admobid.interstitial,
       bannerAtTop: true,	    
-      autoShowInterstitial: false
+      autoShowInterstitial: true
     });
 
-    registerAdEvents();
+    //registerAdEvents();
 
   } else {
     alert('AdMobAds plugin not ready');
