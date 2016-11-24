@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
 id="com.didin.admobphonegapbuild" 
-version="3.0.0" 
+version="4.0.0" 
 xmlns="http://www.w3.org/ns/widgets"
 xmlns:gap="http://phonegap.com/ns/1.0"
 >
@@ -14,7 +14,7 @@ xmlns:gap="http://phonegap.com/ns/1.0"
 
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" /> 
-    <gap:plugin name="cordova-plugin-admobpro" source="npm" />
+    <plugin name="cordova-admob" />
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
